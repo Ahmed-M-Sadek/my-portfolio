@@ -1,0 +1,117 @@
+{
+  "name": {
+    "full": "Ahmed M. Sadek Abdelhamid",
+    "short": "Ahmed Abdelhamid",
+    "first": "Ahmed"
+  },
+  "about": "A passionate and dedicated software engineer specialized in full-stack web developer.\nI graduated in 2022 with a dual degree in Computer Engineering and Software Systems from Ain Shams University and University of East London.",
+  "skills": [
+    { "name": "React", "link": "./src/assets/react.svg" },
+    { "name": "NextJS", "link": "./src/assets/nextjs-icon.svg" },
+    { "name": "NodeJS", "link": "./src/assets/nodejs-icon.svg" },
+    { "name": "Typescript", "link": "./src/assets/typescript-icon-round.svg" },
+    { "name": "PHP", "link": "./src/assets/php-alt.svg" },
+    { "name": "HTML & CSS", "link": "./src/assets/html-css.svg" },
+    { "name": "TailwindCSS", "link": "./src/assets/tailwindcss-icon.svg" },
+    { "name": "Python", "link": "./src/assets/python.svg" },
+    { "name": "GraphQL", "link": "./src/assets/graphql.svg" },
+    { "name": "MongoDB", "link": "./src/assets/mongodb-icon.svg" },
+    { "name": "MySQL", "link": "./src/assets/mysql-icon.svg" },
+    { "name": "Prisma", "link": "./src/assets/prisma.svg" },
+    { "name": "zod", "link": "./src/assets/zod.svg" },
+    { "name": "Sentry", "link": "./src/assets/sentry-icon.svg" },
+    { "name": "Git", "link": "./src/assets/git-icon.svg" },
+    { "name": "Docker", "link": "./src/assets/docker-icon.svg" },
+    { "name": "nginx", "link": "./src/assets/nginx.svg" }
+  ],
+  "otherSkills": [
+    { "name": "Bash", "link": "./src/assets/bash-icon.svg" },
+    { "name": "Unity", "link": "./src/assets/unity.svg" },
+    { "name": "C#", "link": "./src/assets/c-sharp.svg" },
+    { "name": "Arduino", "link": "./src/assets/arduino.svg" }
+  ],
+  "experience": [
+    {
+      "title": "IT helpdesk engineer",
+      "subtitle": "ABC Engineering",
+      "description": [
+        "Provided hardware, software, and networking support to staff members.",
+        "Built and maintained a locally deployed internal system for data follow-ups",
+        "Currently working on building their website"
+      ],
+      "date": "Dec. 2023 - Current",
+      "icon": "./src/assets/abcpng.png"
+    },
+    {
+      "title": "IT helpdesk engineer",
+      "subtitle": "Mandatory Egyptian Military Conscription",
+      "description": ["Provided computer software and hardware support. "],
+      "date": "Sep. 2022 - Dec. 2023",
+      "icon": "./src/assets/work.svg"
+    },
+    {
+      "title": "Full-Stack web developer",
+      "subtitle": "Scandiweb (remote)",
+      "description": [
+        "Maintained, enhanced and tested multiple e-commerce projects.",
+        "Analyzed log reports and tested websites’ health.",
+        "Applied SEO techniques on existing projects.",
+        "Communicated and discussed updates with clients."
+      ],
+      "date": "Feb. 2022 - Sep. 2022",
+      "icon": "./src/assets/scandiweb.svg"
+    },
+    {
+      "title": "BSc. with First Class Honours",
+      "subtitle": "Ain Shams University & University of East London",
+      "description": ["Computer Engineering and Software Systems"],
+      "date": "2017 - 2022",
+      "icon": "./src/assets/university.svg"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Educate",
+      "description": "Notes and study material sharing application",
+      "stack": [
+        "ReactNative",
+        "Expo",
+        "NestJS",
+        "PostgreSQL",
+        "Docker",
+        "Docker-compose",
+        "sentry"
+      ],
+      "icon": "./src/assets/educate.png",
+      "link": "https://www.figma.com/proto/2OlSP7IMMLOl72O9csxwSe/Mobile-App?node-id=0-1&t=48N4nv9mFfCNmk9v-1"
+    },
+    {
+      "name": "PhantoMart",
+      "description": "Demo E-Commerce web application for an online store",
+      "stack": [
+        "NextJs",
+        "Typescript",
+        "TailwindCSS",
+        "zod",
+        "Prisma",
+        "GraphQL"
+      ],
+      "icon": "./src/assets/phantomart.png",
+      "link": "https://phantomart.ahmedmsabdelhamid.com/"
+    },
+    {
+      "name": "Skull Reign",
+      "description": "Video game made without a game engine",
+      "stack": ["Java", "JavaFX"],
+      "icon": "./src/assets/skullreign.png",
+      "link": "https://github.com/rameziophobia/skull-reign-2D-topdown-shooter"
+    }
+  ],
+  "contact": {
+    "linkedin": "https://www.linkedin.com/in/ahmedms-abdelhamid/",
+    "github": "https://github.com/Ahmed-M-Sadek",
+    "facebook": "https://www.facebook.com/ahmedmohamedsadek.1998/",
+    "phone": "+201000781031",
+    "email": "ahmedms.abdelhamid@gmail.com"
+  }
+}

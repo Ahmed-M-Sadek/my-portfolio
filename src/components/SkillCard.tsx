@@ -1,25 +1,20 @@
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
+import { Card, CardContent, CardDescription } from "./ui/card";
 
 const SkillCard = ({ skill }: { skill: { name: string; link: string } }) => {
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>{skill.name}</CardTitle>
-        <CardDescription>{skill.link}</CardDescription>
-      </CardHeader>
-      <CardContent>
-        <p>{skill.name}</p>
+    <Card className="flex justify-center items-center bg-dark-grey aspect-square w-44 h-44">
+      <CardContent className="p-0">
+        <div className="flex justify-center w-full h-full">
+          <img
+            src={skill.link}
+            alt={skill.name}
+            className="w-20 h-24 object-fill"
+          />
+        </div>
+        <CardDescription className="text-2xl text-gold text-center mt-2">
+          {skill.name}
+        </CardDescription>
       </CardContent>
-      <CardFooter>
-        <p>{skill.link}</p>
-      </CardFooter>
     </Card>
   );
 };

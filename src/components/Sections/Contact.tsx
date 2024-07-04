@@ -1,11 +1,12 @@
 import { Linkedin, Github, Facebook, Phone, Mail } from "lucide-react";
-import { contact } from "../../data/data.json";
+// @ts-ignore
+import { contact } from "@/data/data.json";
 
 const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-muted-gold text-black">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl mb-6">Contact</h2>
+        <h2 className="text-3xl mb-6">Contact Me</h2>
         <ul className="space-y-4">
           <li className="flex items-center">
             <Linkedin className="w-6 h-6 mr-4" />
@@ -42,7 +43,9 @@ const Contact = () => {
           </li>
           <li className="flex items-center">
             <Phone className="w-6 h-6 mr-4" />
-            <span className="text-lg text-dark-grey">{contact.phone}</span>
+            <a href={`tel:${contact.phone}`} className="text-lg text-dark-grey">
+              {contact.phone}
+            </a>
           </li>
           <li className="flex items-center">
             <Mail className="w-6 h-6 mr-4" />

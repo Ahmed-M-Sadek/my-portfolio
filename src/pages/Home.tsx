@@ -1,10 +1,5 @@
-import {
-  Hero,
-  About,
-  Skills,
-  Portfolio,
-  Contact,
-} from "../components/Sections";
+// @ts-ignore
+import { Hero, About, Skills, Portfolio, Contact } from "@/components/Sections";
 
 const Home = () => {
   return (

@@ -1,5 +1,6 @@
 import SkillCard from "../SkillCard";
-import { skills, otherSkills } from "../../data/data.json";
+// @ts-ignore
+import { skills, otherSkills } from "@/data/data.json";
 
 const Skills = () => {
   return (

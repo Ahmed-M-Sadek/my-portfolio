@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
-import { name } from "../data/data.json";
+// @ts-ignore
+import { name } from "@/data/data.json";
 
 const NavBar = () => {
   const offSet = 0;

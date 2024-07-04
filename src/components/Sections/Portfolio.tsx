@@ -1,6 +1,7 @@
 import ProjectsCarosel from "../ProjectsCarousel";
 import Timeline from "../Timeline";
-import { Separator } from "../ui/separator";
+// @ts-ignore
+import { Separator } from "@/components/ui/separator";
 
 const Portfolio = () => {
   return (

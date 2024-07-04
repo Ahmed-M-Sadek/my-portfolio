@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import { name } from "../data/data.json";
 
 const NavBar = () => {
-  const offSet = -30;
+  const offSet = 0;
 
   return (
     <nav className="bg-dark-grey text-gold py-4 px-6 flex justify-between items-center">
@@ -29,7 +29,7 @@ const NavBar = () => {
         </Link>
 
         <Link
-          to="projects"
+          to="portfolio"
           smooth={true}
           duration={500}
           offset={offSet}

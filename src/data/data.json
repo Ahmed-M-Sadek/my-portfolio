@@ -4,7 +4,8 @@
     "short": "Ahmed Abdelhamid",
     "first": "Ahmed"
   },
-  "about": "A passionate and dedicated software engineer specialized in full-stack web developer.\nI graduated in 2022 with a dual degree in Computer Engineering and Software Systems from Ain Shams University and University of East London.",
+  "about": "A passionate and dedicated software engineer specializing in full-stack web development.\nI graduated in 2022 with a dual degree in Computer Engineering and Software Systems from Ain Shams University and University of East London.\nI am driven by a desire to create impactful digital solutions and thrive on tackling complex challenges in web development.",
+  "personalImage": "/assets/ahmed.png",
   "skills": [
     { "name": "React", "link": "/assets/react.svg" },
     { "name": "NextJS", "link": "/assets/nextjs-icon.svg" },

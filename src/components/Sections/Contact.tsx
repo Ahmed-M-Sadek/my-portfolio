@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-muted-gold text-black">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl mb-6">Contact Me</h2>
-        <ul className="space-y-4">
+        <h2 className="text-3xl mb-6 font-bold text-center">Contact Me</h2>
+        <ul className="space-y-4 flex justify-evenly">
           <li className="flex items-center">
             <Linkedin className="w-6 h-6 mr-4" />
             <a

@@ -118,6 +118,16 @@ const NavBar = () => {
               Portfolio
             </Link>
             <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              offset={offSet}
+              className="block px-4 py-2 text-lg hover:bg-highlightCustom hover:text-textPrimaryCustom cursor-pointer"
+              onClick={() => setMenuOpen(false)}
+            >
+              Projects
+            </Link>
+            <Link
               to="contact"
               smooth={true}
               duration={500}

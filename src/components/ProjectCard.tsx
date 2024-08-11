@@ -20,7 +20,7 @@ const ProjectCard = (props: {
   const project = props.project;
   return (
     <a href={project.link}>
-      <Card className="flex flex-col bg-cardBackgroundCustom text-textPrimaryCustom h-full">
+      <Card className="flex flex-col bg-cardBackgroundCustom text-textPrimaryCustom h-full duration-100 hover:scale-110 overflow-visible">
         <CardHeader className="py-2 pt-4">
           <CardTitle className="text-center text-lg md:text-xl lg:text-2xl font-semibold text-accentCustom">
             {project.name}

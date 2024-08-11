@@ -38,7 +38,10 @@ const ProjectCard = (props: {
         </CardContent>
         <CardFooter className="flex flex-wrap flex-grow justify-center gap-1">
           {project.stack.map((tech) => (
-            <Badge key={tech} className=" bg-accentCustom justify-center ">
+            <Badge
+              key={tech}
+              className=" bg-accentCustom justify-center hover:bg-accentCustom"
+            >
               {tech}
             </Badge>
           ))}

@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return (
     <nav className="bg-primaryCustom text-textPrimaryCustom py-4 px-6 flex justify-between items-center fixed z-30 w-full top-0">
-      <div className="text-accentCustom text-2xl font-bold">{name.full}</div>
+      <div className="text-accentCustom text-2xl font-bold">{name.short}</div>
 
       {/* Large screen navigation */}
       <div className="hidden md:flex space-x-14 mr-10 text-xl">

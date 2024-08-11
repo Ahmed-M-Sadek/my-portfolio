@@ -1,5 +1,5 @@
 // @ts-ignore
-import { overview, contact } from "@/data/data.json";
+import { overview, contact, name } from "@/data/data.json";
 import { Button } from "../ui/button";
 import { Mail } from "lucide-react";
 
@@ -11,9 +11,9 @@ const Hero = () => {
   return (
     <section className=" text-textPrimaryCustom flex flex-col items-center justify-center h-screen p-4">
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-        Welcome to My Personal Portfolio
+        {name.full}
       </h1>
-      <p className="mt-4 text-lg md:text-xl lg:text-2xl text-center max-w-2xl">
+      <p className="mt-4 text-lg md:text-xl lg:text-2xl text-center max-w-2xl whitespace-pre-wrap">
         {overview}
       </p>
       <Button

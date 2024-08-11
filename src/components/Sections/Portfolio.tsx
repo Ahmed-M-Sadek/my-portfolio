@@ -1,4 +1,3 @@
-import ProjectsCarousel from "../ProjectsCarousel";
 import Timeline from "../Timeline";
 // @ts-ignore
 import { Separator } from "@/components/ui/separator";

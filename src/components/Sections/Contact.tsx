@@ -1,4 +1,4 @@
-import { Linkedin, Phone, Mail } from "lucide-react";
+import { Linkedin, Smartphone } from "lucide-react";
 // @ts-ignore
 import { contact } from "@/data/data.json";
 
@@ -26,7 +26,8 @@ const Contact = () => {
           </li>
           <li className="flex items-center">
             <img
-              src={"assets/contact/github.svg"}
+              // src={"assets/contact/github.svg"}
+              src="https://cdn.simpleicons.org/github/181717"
               alt={"github logo"}
               className="w-6 h-6 mr-4"
             />
@@ -41,7 +42,7 @@ const Contact = () => {
           </li>
           <li className="flex items-center">
             <img
-              src={"assets/contact/facebook.svg"}
+              src="https://cdn.simpleicons.org/facebook/0866FF"
               alt={"facebook logo"}
               className="w-6 h-6 mr-4"
             />
@@ -55,7 +56,7 @@ const Contact = () => {
             </a>
           </li>
           <li className="flex items-center">
-            <Phone className="w-6 h-6 mr-4" />
+            <Smartphone className="w-6 h-6 mr-4" />
             <a
               href={`tel:${contact.phone}`}
               className="text-lg hover:underline"
@@ -64,7 +65,11 @@ const Contact = () => {
             </a>
           </li>
           <li className="flex items-center">
-            <Mail className="w-6 h-6 mr-4" />
+            <img
+              src="https://cdn.simpleicons.org/gmail/EA4335"
+              alt={"facebook logo"}
+              className="w-6 h-6 mr-4"
+            />
             <a
               href={`mailto:${contact.email}`}
               className="text-lg hover:underline"

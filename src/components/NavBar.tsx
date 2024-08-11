@@ -65,7 +65,7 @@ const NavBar = () => {
       </div>
 
       {/* Burger menu for small screens */}
-      <div className="md:hidden">
+      <div className="md:hidden ">
         <Button
           onClick={() => setMenuOpen(!menuOpen)}
           className="text-textPrimaryCustom focus:outline-none"
@@ -86,13 +86,13 @@ const NavBar = () => {
           </svg>
         </Button>
         {menuOpen && (
-          <div className="absolute right-4 top-16 bg-backgroundCustom shadow-lg rounded-lg w-48 z-50">
+          <div className="absolute right-4 top-16 bg-secondaryCustom shadow-lg rounded-lg w-48 z-50">
             <Link
               to="about"
               smooth={true}
               duration={500}
               offset={offSet}
-              className="block px-4 py-2 text-lg hover:bg-highlightCustom hover:text-textPrimaryCustom cursor-pointer"
+              className="block px-4 py-2 text-lg hover:bg-highlightCustom hover:text-textPrimaryCustom cursor-pointer rounded-t-lg"
               onClick={() => setMenuOpen(false)}
             >
               About
@@ -122,7 +122,7 @@ const NavBar = () => {
               smooth={true}
               duration={500}
               offset={offSet}
-              className="block px-4 py-2 text-lg hover:bg-highlightCustom hover:text-textPrimaryCustom cursor-pointer"
+              className="block px-4 py-2 text-lg hover:bg-highlightCustom hover:text-textPrimaryCustom cursor-pointer rounded-b-lg"
               onClick={() => setMenuOpen(false)}
             >
               Contact

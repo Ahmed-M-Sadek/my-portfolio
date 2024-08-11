@@ -25,7 +25,7 @@ const ProjectsCarousel = () => {
         //   }),
         // ]}
       >
-        <CarouselContent className="flex gap-4">
+        <CarouselContent className="flex gap-4 ">
           {projects.map(
             (project: {
               name: string;
@@ -36,7 +36,7 @@ const ProjectsCarousel = () => {
             }) => (
               <CarouselItem
                 key={project.name}
-                className="flex-shrink-0 w-full sm:w-full md:basis-1/3 lg:basis-1/4 xl:basis-1/5 p-2 items-stretch"
+                className="flex-shrink-0 w-full sm:w-full md:basis-1/3 lg:basis-1/4 xl:basis-1/5 p-2 items-stretch duration-100 hover:scale-110"
               >
                 <ProjectCard project={project} />
               </CarouselItem>

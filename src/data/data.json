@@ -6,54 +6,117 @@
   },
   "overview": "Creating modern, responsive, and accessible web applications.",
   "about": "A passionate and dedicated software engineer specializing in full-stack web development.\nI graduated in 2022 with a dual degree in Computer Engineering and Software Systems from Ain Shams University and University of East London.\nI am driven by a desire to create impactful digital solutions and thrive on tackling complex challenges in web development.",
-  "personalImage": "/assets/ahmed.png",
+  "personalImage": "https://www.ahmedmsabdelhamid.com/assets/ahmed.png",
   "skills": [
-    { "name": "React", "link": "/assets/react.svg" },
-    { "name": "NextJS", "link": "/assets/nextjs-icon.svg" },
-    { "name": "NodeJS", "link": "/assets/nodejs-icon.svg" },
-    { "name": "Typescript", "link": "/assets/typescript-icon-round.svg" },
-    { "name": "PHP", "link": "/assets/php-alt.svg" },
-    { "name": "HTML & CSS", "link": "/assets/html-css.svg" },
-    { "name": "TailwindCSS", "link": "/assets/tailwindcss-icon.svg" },
-    { "name": "Python", "link": "/assets/python.svg" },
-    { "name": "GraphQL", "link": "/assets/graphql.svg" },
-    { "name": "MongoDB", "link": "/assets/mongodb-icon.svg" },
-    { "name": "MySQL", "link": "/assets/mysql-icon.svg" },
-    { "name": "Prisma", "link": "/assets/prisma.svg" },
-    { "name": "zod", "link": "/assets/zod.svg" },
-    { "name": "Sentry", "link": "/assets/sentry-icon.svg" },
-    { "name": "Git", "link": "/assets/git-icon.svg" },
-    { "name": "Docker", "link": "/assets/docker-icon.svg" },
-    { "name": "nginx", "link": "/assets/nginx.svg" }
+    {
+      "name": "React",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/react.svg"
+    },
+    {
+      "name": "NextJS",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/nextjs-icon.svg"
+    },
+    {
+      "name": "NodeJS",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/nodejs-icon.svg"
+    },
+    {
+      "name": "Typescript",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/typescript-icon-round.svg"
+    },
+    {
+      "name": "PHP",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/php-alt.svg"
+    },
+    {
+      "name": "HTML & CSS",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/html-css.svg"
+    },
+    {
+      "name": "TailwindCSS",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/tailwindcss-icon.svg"
+    },
+    {
+      "name": "Python",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/python.svg"
+    },
+    {
+      "name": "GraphQL",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/graphql.svg"
+    },
+    {
+      "name": "MongoDB",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/mongodb-icon.svg"
+    },
+    {
+      "name": "MySQL",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/mysql-icon.svg"
+    },
+    {
+      "name": "Prisma",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/prisma.svg"
+    },
+    {
+      "name": "zod",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/zod.svg"
+    },
+    {
+      "name": "Sentry",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/sentry-icon.svg"
+    },
+    {
+      "name": "Git",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/git-icon.svg"
+    },
+    {
+      "name": "Docker",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/docker-icon.svg"
+    },
+    {
+      "name": "nginx",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/nginx.svg"
+    }
   ],
   "otherSkills": [
-    { "name": "Bash", "link": "/assets/bash-icon.svg" },
-    { "name": "Unity", "link": "/assets/unity.svg" },
-    { "name": "C#", "link": "/assets/c-sharp.svg" },
-    { "name": "Arduino", "link": "/assets/arduino.svg" }
+    {
+      "name": "Bash",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/bash-icon.svg"
+    },
+    {
+      "name": "Unity",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/unity.svg"
+    },
+    {
+      "name": "C#",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/c-sharp.svg"
+    },
+    {
+      "name": "Arduino",
+      "link": "https://www.ahmedmsabdelhamid.com/assets/arduino.svg"
+    }
   ],
   "experience": [
     {
       "title": "IT helpdesk engineer",
-      "subtitle": "ABC Engineering",
+      "subtitle": "ABC Engineering (Cairo EG)",
       "description": [
         "Provided hardware, software, and networking support to staff members.",
         "Built and maintained a locally deployed internal system for data follow-ups",
         "Currently working on building their website"
       ],
       "date": "Dec. 2023 - Current",
-      "icon": "/assets/abcpng.png"
+      "icon": "https://www.ahmedmsabdelhamid.com/assets/abc.webp"
     },
     {
       "title": "IT helpdesk engineer",
-      "subtitle": "Mandatory Egyptian Military Conscription",
+      "subtitle": "Mandatory Egyptian Military Conscription (Cairo EG)",
       "description": ["Provided computer software and hardware support. "],
       "date": "Sep. 2022 - Dec. 2023",
-      "icon": "/assets/work.svg"
+      "icon": "https://www.ahmedmsabdelhamid.com/assets/work.svg"
     },
     {
       "title": "Full-Stack web developer",
-      "subtitle": "Scandiweb (remote)",
+      "subtitle": "Scandiweb (Latvia - remote)",
       "description": [
         "Maintained, enhanced and tested multiple e-commerce projects.",
         "Analyzed log reports and tested websites’ health.",
@@ -61,14 +124,14 @@
         "Communicated and discussed updates with clients."
       ],
       "date": "Feb. 2022 - Sep. 2022",
-      "icon": "/assets/scandiweb.svg"
+      "icon": "https://www.ahmedmsabdelhamid.com/assets/white-scandiweb.svg"
     },
     {
       "title": "BSc. with First Class Honours",
       "subtitle": "Ain Shams University & University of East London",
       "description": ["Computer Engineering and Software Systems"],
       "date": "2017 - 2022",
-      "icon": "/assets/university.svg"
+      "icon": "https://www.ahmedmsabdelhamid.com/assets/university.svg"
     }
   ],
   "projects": [
@@ -76,15 +139,15 @@
       "name": "Educate",
       "description": "Notes and study material sharing application",
       "stack": [
-        "ReactNative",
-        "Expo",
-        "NestJS",
         "PostgreSQL",
         "Docker",
         "Docker-compose",
+        "ReactNative",
+        "Expo",
+        "NestJS",
         "sentry"
       ],
-      "icon": "/assets/educate.png",
+      "icon": "https://www.ahmedmsabdelhamid.com/assets/educate.png",
       "link": "https://www.figma.com/proto/2OlSP7IMMLOl72O9csxwSe/Mobile-App?node-id=0-1&t=48N4nv9mFfCNmk9v-1"
     },
     {
@@ -98,14 +161,14 @@
         "Prisma",
         "GraphQL"
       ],
-      "icon": "/assets/phantomart.png",
+      "icon": "https://www.ahmedmsabdelhamid.com/assets/phantomart.png",
       "link": "https://phantomart.ahmedmsabdelhamid.com/"
     },
     {
       "name": "Skull Reign",
       "description": "Video game made without a game engine",
       "stack": ["Java", "JavaFX"],
-      "icon": "/assets/skullreign.png",
+      "icon": "https://www.ahmedmsabdelhamid.com/assets/skullreign.png",
       "link": "https://github.com/rameziophobia/skull-reign-2D-topdown-shooter"
     }
   ],

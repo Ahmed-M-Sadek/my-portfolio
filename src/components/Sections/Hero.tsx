@@ -1,5 +1,6 @@
 // @ts-ignore
 import { overview, contact } from "@/data/data.json";
+import { Button } from "../ui/button";
 
 const Hero = () => {
   const handleButtonClick = () => {
@@ -7,17 +8,20 @@ const Hero = () => {
   };
 
   return (
-    <section className="text-center py-20 bg-black text-white">
-      <h1 className="text-4xl mb-4 text-gold">Welcome to My Portfolio</h1>
-      <p className="text-xl">{overview}</p>
-      {/* Animated button with Tailwind CSS transitions */}
-      <button
+    <section className=" text-textPrimaryCustom flex flex-col items-center justify-center h-screen p-4">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+        Welcome to My Portfolio
+      </h1>
+      <p className="mt-4 text-lg md:text-xl lg:text-2xl text-center max-w-2xl">
+        {overview}
+      </p>
+      <Button
+        variant="outline"
         onClick={handleButtonClick}
-        className="mt-6 px-6 py-2 bg-gold text-black rounded relative overflow-hidden transition duration-300 ease-in-out hover:bg-muted-gold"
+        className="mt-8 bg-highlightCustom text-white hover:bg-opacity-90 transition-all duration-300 ease-in-out"
       >
-        <span className="relative z-10">Get in Touch</span>
-        <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent to-gold opacity-50"></span>
-      </button>
+        View My Work
+      </Button>
     </section>
   );
 };

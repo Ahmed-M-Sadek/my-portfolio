@@ -22,7 +22,7 @@ const Timeline = () => {
             key={exp.subtitle}
             className="vertical-timeline-element--work"
             contentStyle={{ background: "hsl(233,18%,19%)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{ borderRight: "7px solid  #10b981" }}
             date={exp.date}
             icon={
               <div className="flex justify-center items-center w-full h-full">
@@ -30,22 +30,24 @@ const Timeline = () => {
               </div>
             }
             iconStyle={{
-              background: "#c59649",
+              background: "#6366f1",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <h3 className="vertical-timeline-element-title text-gold">
+            <h3 className="vertical-timeline-element-title text-highlightCustom">
               {exp.title}
             </h3>
-            <h4 className="vertical-timeline-element-subtitle text-muted-gold">
+            <h4 className="vertical-timeline-element-subtitle text-highlightDarkCustom">
               {exp.subtitle}
             </h4>
             <ul className="mt-4">
               {exp.description.map((point) => (
-                <div key={point} className="flex flex-row">
-                  {exp.description.length > 1 ? <DotIcon /> : <></>}
+                <div key={point} className="flex flex-row items-start">
+                  {exp.description.length > 1 ? (
+                    <DotIcon className="mr-2 text-highlightCustom" />
+                  ) : null}
                   <li>{point}</li>
                 </div>
               ))}

@@ -4,9 +4,9 @@ import { skills, otherSkills } from "@/data/data.json";
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 bg-gold text-black">
-      <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-10 text-center">
+    <section id="skills" className=" text-textSecondaryCustom py-16 px-4">
+      <div>
+        <h2 className="text-4xl font-bold mb-10 text-center text-highlightCustom">
           Web Development Skills
         </h2>
         <ul className="flex flex-wrap justify-center gap-4">
@@ -14,7 +14,7 @@ const Skills = () => {
             <SkillCard key={skill.name} skill={skill} />
           ))}
         </ul>
-        <h2 className="text-4xl font-bold mt-12 mb-10 text-center">
+        <h2 className="text-4xl font-bold mt-12 mb-10 text-center text-highlightCustom">
           Other Skills
         </h2>
         <ul className="flex flex-wrap justify-center gap-4">

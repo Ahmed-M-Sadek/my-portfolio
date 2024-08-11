@@ -1,4 +1,4 @@
-import { Linkedin, Github, Facebook, Phone, Mail } from "lucide-react";
+import { Linkedin, Phone, Mail } from "lucide-react";
 // @ts-ignore
 import { contact } from "@/data/data.json";
 
@@ -12,7 +12,7 @@ const Contact = () => {
         <h2 className="text-3xl mb-6 font-bold text-center text-highlightCustom">
           Contact Me
         </h2>
-        <ul className="space-y-4 flex flex-col sm:flex-row justify-evenly items-center">
+        <ul className="space-y-4 lg:space-y-0 flex flex-col lg:flex-row justify-evenly align-middle md:items-center">
           <li className="flex items-center">
             <Linkedin className="w-6 h-6 mr-4" />
             <a
@@ -25,7 +25,11 @@ const Contact = () => {
             </a>
           </li>
           <li className="flex items-center">
-            <Github className="w-6 h-6 mr-4" />
+            <img
+              src={"assets/contact/github.svg"}
+              alt={"github logo"}
+              className="w-6 h-6 mr-4"
+            />
             <a
               href={contact.github}
               target="_blank"
@@ -36,7 +40,11 @@ const Contact = () => {
             </a>
           </li>
           <li className="flex items-center">
-            <Facebook className="w-6 h-6 mr-4" />
+            <img
+              src={"assets/contact/facebook.svg"}
+              alt={"facebook logo"}
+              className="w-6 h-6 mr-4"
+            />
             <a
               href={contact.facebook}
               target="_blank"

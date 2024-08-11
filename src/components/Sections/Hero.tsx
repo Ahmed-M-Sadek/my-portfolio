@@ -1,6 +1,7 @@
 // @ts-ignore
 import { overview, contact } from "@/data/data.json";
 import { Button } from "../ui/button";
+import { Mail } from "lucide-react";
 
 const Hero = () => {
   const handleButtonClick = () => {
@@ -18,8 +19,9 @@ const Hero = () => {
       <Button
         variant="outline"
         onClick={handleButtonClick}
-        className="mt-8 bg-highlightCustom text-white hover:bg-opacity-90 transition-all duration-300 ease-in-out"
+        className="mt-8 w-80 h-20 text-3xl bg-highlightCustom hover:bg-accentCustom text-white hover:bg-opacity-90 transition-all duration-300 ease-in-out"
       >
+        <Mail className="mr-6 h-9 w-9" />
         Get In Touch
       </Button>
     </section>

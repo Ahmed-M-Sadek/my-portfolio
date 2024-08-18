@@ -15,7 +15,7 @@ const ProjectsCarousel = () => {
     <div className="w-full overflow-hidden">
       <Carousel
         opts={{
-          align: "start",
+          align: "center",
           loop: true,
           dragFree: true,
         }}
@@ -25,7 +25,7 @@ const ProjectsCarousel = () => {
         //   }),
         // ]}
       >
-        <CarouselContent className="flex gap-4">
+        <CarouselContent className="ml-0 flex gap-4">
           {projects.map(
             (project: {
               name: string;
@@ -43,8 +43,8 @@ const ProjectsCarousel = () => {
             )
           )}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="hidden md:visible" />
+        <CarouselNext className="hidden md:visible" />
       </Carousel>
     </div>
   );

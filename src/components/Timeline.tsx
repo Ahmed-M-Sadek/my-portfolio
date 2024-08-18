@@ -9,7 +9,7 @@ import { DotIcon } from "lucide-react";
 
 const Timeline = () => {
   return (
-    <VerticalTimeline className="overflow-hidden">
+    <VerticalTimeline>
       {experience.map(
         (exp: {
           title: string;

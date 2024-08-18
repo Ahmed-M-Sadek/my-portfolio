@@ -126,7 +126,7 @@ const Home = () => {
   );
 
   return (
-    <div className="flex-grow mt-16 bg-primaryCustom">
+    <div className="flex-grow mt-16 w-full bg-primaryCustom">
       <SectionWithParticles id="Hero" config={HeroParticlesConfig}>
         <Hero />
       </SectionWithParticles>

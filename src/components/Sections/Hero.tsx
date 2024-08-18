@@ -19,7 +19,7 @@ const Hero = () => {
       <Button
         variant="outline"
         onClick={handleButtonClick}
-        className="mt-8 w-80 h-20 text-3xl bg-highlightCustom hover:bg-accentCustom text-white hover:bg-opacity-90 transition-all duration-300 ease-in-out"
+        className="mt-8 lg:w-80 sm:w-16 h-20 text-3xl bg-highlightCustom hover:bg-accentCustom text-white hover:bg-opacity-90 transition-all duration-300 ease-in-out"
       >
         <Mail className="mr-6 h-9 w-9" />
         Get In Touch

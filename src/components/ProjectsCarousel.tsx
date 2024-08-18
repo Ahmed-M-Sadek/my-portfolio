@@ -12,7 +12,7 @@ import { projects } from "@/data/data.json";
 
 const ProjectsCarousel = () => {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-hidden">
       <Carousel
         opts={{
           align: "start",
@@ -25,7 +25,7 @@ const ProjectsCarousel = () => {
         //   }),
         // ]}
       >
-        <CarouselContent className="flex gap-4 ">
+        <CarouselContent className="flex gap-4">
           {projects.map(
             (project: {
               name: string;

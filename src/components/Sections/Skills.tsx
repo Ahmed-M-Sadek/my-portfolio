@@ -11,7 +11,9 @@ const Skills = () => {
         </h2>
         <ul className="flex flex-wrap justify-center gap-4">
           {skills.map((skill: { name: string; link: string }) => (
-            <SkillCard key={skill.name} skill={skill} />
+            <li key={skill.name}>
+              <SkillCard skill={skill} />
+            </li>
           ))}
         </ul>
         <h2 className="text-4xl font-bold mt-12 mb-10 text-center text-highlightCustom">
@@ -19,7 +21,9 @@ const Skills = () => {
         </h2>
         <ul className="flex flex-wrap justify-center gap-4">
           {otherSkills.map((skill: { name: string; link: string }) => (
-            <SkillCard key={skill.name} skill={skill} />
+            <li key={skill.name}>
+              <SkillCard skill={skill} />
+            </li>
           ))}
         </ul>
       </div>

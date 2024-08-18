@@ -72,7 +72,7 @@ const Contact = () => {
             />
             <a
               href={`mailto:${contact.email}`}
-              className="text-lg hover:underline sm:text-xs truncate"
+              className="text-sm hover:underline md:text-lg truncate"
             >
               {contact.email}
             </a>

@@ -1,7 +1,5 @@
 # Ahmed M. S. Abdelhamid - Full-Stack Developer
 
-<img src="https://www.ahmedmsabdelhamid.com/assets/ahmed.png" alt="Profile Image" width="150"/>
-
 ## Introduction
 
 I am a passionate and dedicated software engineer specialized in full-stack web development. With hands-on experience in both front-end and back-end technologies, I have successfully developed and maintained scalable, responsive, and user-friendly web applications. I hold a dual degree in Computer Engineering and Software Systems from Ain Shams University and the University of East London, graduating with First Class Honours in 2022.
